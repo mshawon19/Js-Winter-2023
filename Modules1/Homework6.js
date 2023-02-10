@@ -70,8 +70,11 @@ for (let i =0;  i<=str1_lower_split.length-1; i++) {
 //console.log(reverseStr2);       // 'doing you are how dear hello'
 console.log(`\nQ2| Reverse a String (word by word)`)
 const str2 = 'I like wine';
-let reverseStr2 = str2.split(' ').reverse().join(' ');
 
+for (let index = 0; index < str2.length-1; index++) {
+    reverseStr2 = str2.split(' ').reverse().join(' ');
+    
+}
 console.log(`Original string is -> ${str2}`);
 console.log(`Reversed string is -> ${reverseStr2}`)
 
