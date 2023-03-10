@@ -31,7 +31,6 @@ restaurantInfo = {
         Restaurant.allRestaurantInfo.push(this.restaurantInfo.rUniqueId);
        console.log(`Congratulations for successfully registering ${this.restaurantInfo.rName} as a restaurant.`);
        console.log(`Your unique Business ID is ${this.restaurantInfo.rUniqueId}`);
-    
         }
     }
     open() {
