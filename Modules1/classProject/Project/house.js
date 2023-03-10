@@ -10,7 +10,6 @@ class House {
         hMaxMemberCapacity: 0,
         hCurrentMemberCount: 0,
         hStatus: 'locked',
-    
     }
 
     constructor (name, cityName, maxMemberCapacity) {
@@ -27,7 +26,6 @@ class House {
         House.allHouseInfo.push(this.houseInfo.hUniqueId);
        console.log(`Congratulations for successfully registering ${this.houseInfo.hName} as a house.`);
        console.log(`Your unique Home ID is ${this.houseInfo.hUniqueId}`);
-    
         }
     }
 
